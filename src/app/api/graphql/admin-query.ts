@@ -66,11 +66,11 @@ const adminResolvers = {
       });
     },
 
-    /* details: async (parent: Student, args: Details, context: Context) => {
+    details: async (parent: Student, args: Details, context: Context) => {
       return await context.prisma.details.findUnique({
         where: { studentId: parent.id },
       });
-    }, */
+    },
   },
 
   Mutation: {
