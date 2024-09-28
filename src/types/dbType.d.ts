@@ -6,6 +6,7 @@ type FingerPrint = {
 };
 
 type Details = {
+  studentName: string;
   student_id: string;
   id: string; // (uuid)
   aadhar_number: number; // full aadhar number
@@ -25,7 +26,7 @@ type Details = {
   disability: boolean;
   disabilityType?: string;
   employed: boolean;
-  employmentStatus?: string;
+  employmentStatus?: boolean;
   employmentDetails?: string;
   trainingProgram: string;
 };
