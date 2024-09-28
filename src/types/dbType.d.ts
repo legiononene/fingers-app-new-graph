@@ -26,7 +26,7 @@ type Details = {
   disability: boolean;
   disabilityType?: string;
   employed: boolean;
-  employmentStatus?: boolean;
+  employmentStatus?: string;
   employmentDetails?: string;
   trainingProgram: string;
 };
